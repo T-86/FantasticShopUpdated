@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+<!--Stores the default margin value that appears on all the app screens-->
+    <dimen name="default_margin">15dp</dimen>
+</resources>

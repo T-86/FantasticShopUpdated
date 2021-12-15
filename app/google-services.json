@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1090853231697",
+    "firebase_url": "https://fantasticshop-9cd2b-default-rtdb.firebaseio.com",
+    "project_id": "fantasticshop-9cd2b",
+    "storage_bucket": "fantasticshop-9cd2b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1090853231697:android:91babd353c79a3054aec70",
+        "android_client_info": {
+          "package_name": "com.example.fantasticshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1090853231697-fl8kpsenmfmqrb130vg41u1s29vvmgb6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeMuUH-AwaTBju54UPuUFzWQWEReO3ZI4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1090853231697-fl8kpsenmfmqrb130vg41u1s29vvmgb6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

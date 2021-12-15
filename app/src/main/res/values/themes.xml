@@ -1,0 +1,123 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.FantasticShop" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+<!--    Font style resources creation-->
+
+        <!--    App name default font size-->
+    <style name="defaultTextStyle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/grayLight</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+    </style>
+
+    <style name="defaultSmallTextStyle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/grayLight</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+    </style>
+
+    <style name="customizeTextStyle">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@color/yellowGold_light</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+    </style>
+    
+<!--    App name on the yellow screen-->
+    <style name="blackAppNameTextStyle">
+        <item name="android:textSize">30sp</item>
+        <item name="android:fontFamily">@font/roboto_black</item>
+        <item name="android:textColor">@color/black</item>
+
+    </style>
+
+<!--    App slogan on the yellow screen-->
+    <style name="appSloganTextStyle" parent="defaultTextStyle">
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+             <!-- This is the  page font title for userLogin and create account size -->
+    <style name="userLoginTitleStyle">
+        <item name="android:textSize">35sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/roboto_black</item>
+    </style>
+
+    <style name="userLogin_subTitleStyle" parent="defaultTextStyle">
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <!-- This is the page title font size -->
+    <style name="pageTitleTextStyle" parent="userLoginTitleStyle">
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <!-- This is the item name font size -->
+    <style name="itemNameTextStyle" parent="pageTitleTextStyle">
+        <item name="android:textSize">12sp</item>
+
+    </style>
+
+    <!-- This is the item name font size on details page-->
+    <style name="itemNameDetailsStyle" parent="pageTitleTextStyle">
+        <item name="android:textSize">18sp</item>
+
+    </style>
+
+    <!-- This is the item price font size -->
+    <style name="itemPriceTextStyle" parent="pageTitleTextStyle">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/red</item>
+    </style>
+     <!-- This is the item price big font size -->
+    <style name="itemPriceBigFont" parent="userLoginTitleStyle">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/red</item>
+    </style>
+
+    <!-- This is the item description font size -->
+    <style name="itemDescTextStyle" parent="defaultTextStyle">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- This is the item small description font size -->
+    <style name="itemSmallDescStyle">
+        <item name="android:textSize">9sp</item>
+        <item name="android:textColor">@color/grayLight</item>
+        <item name="android:fontFamily">@font/roboto_light</item>
+    </style>
+
+    <style name="itemSmallNameStyle" parent="defaultTextStyle">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/darkGray</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+    </style>
+
+    <style name="itemSmallPriceStyle" parent="defaultTextStyle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/red</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+    </style>
+
+    <!-- Yellow main page-->
+    <style name="yellow_page_slogan_txt" parent="defaultTextStyle">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20dp</item>
+
+    </style>
+
+
+</resources>

@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Fantastic Shop</string>
+
+    <!-- The Starting yellow page-->
+    <string name="yellow_page_title">@string/app_name</string>
+    <string name="yellow_page_slogan_title">Buy and Sell freely</string>
+    <string name="pbar_purcent">100%</string>
+
+    <!-- The user login page-->
+    <string name="userLogin_title">Welcome User</string>
+    <string name="userLogin_subTitle">Login to your account</string>
+    <string name="userLogin_email_input">Email</string>
+    <string name="userLogin_password_input">Password</string>
+    <string name="userLogin_login_txt">Login</string>
+    <string name="userLogin_createNewAccount_txt">Create New account</string>
+    <string name="user_login_successful">Logging successful</string>
+    <string name="user_login_failed">Logging failed</string>
+
+    <!-- The user create new account page-->
+    <string name="userCreate_Account_title">Create Account</string>
+    <string name="userCreate_emailAccount_input">@string/userLogin_email_input</string>
+    <string name="userCreate_passwordAccount_input">@string/userLogin_password_input</string>
+    <string name="userCreateAccount_confirmPassword_input">Confirm password</string>
+    <string name="userCreate_createAccount_txt">@string/userLogin_createNewAccount_txt</string>
+
+    <!-- The Home page -->
+    <string name="homePage_title">Home</string>
+    <string name="homePage_item_name">MacBook pro</string>
+    <string name="homePage_item_price">$ 200</string>
+
+    <!-- The Item details page -->
+    <string name="item_detailsPage_title">Item details</string>
+    <string name="item_detailsPage_item_name">@string/homePage_item_name</string>
+    <string name="item_detailsPage_item_category">Electronics</string>
+    <string name="item_detailsPage_item_price">@string/homePage_item_price</string>
+    <string name="item_detailsPage_item_description">Enter item description here Enter item description here Enter item description here Enter item description here Enter item description here</string>
+    <string name="item_detailsPage_sellerContact_txt">Contact the seller</string>
+    <string name="item_detailsPage_share_item_txt">Share</string>
+    <string name="userCreateAccount_user_name">User Name</string>
+    <string name="login">Login</string>
+    <string name="create_account">Create Account</string>
+    <string name="shopping_cart_logo">Shopping cart logo</string>
+    <string name="description" />
+    <string name="share">Share</string>
+
+</resources>
